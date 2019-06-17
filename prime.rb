@@ -13,6 +13,8 @@ def prime?(num)
     true
   elsif (result != 0)
     puts false
+  elsif num < 2
+    false
   end
     true
 end

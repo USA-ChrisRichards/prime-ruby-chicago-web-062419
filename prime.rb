@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(num)
+  print num
   if num < 2
     puts false
   end

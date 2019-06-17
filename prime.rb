@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(num)
+  print num
   range = [0..num]
   i = 2
   result = 0

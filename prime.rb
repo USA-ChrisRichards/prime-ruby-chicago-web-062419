@@ -10,7 +10,7 @@ def prime?(num)
   
   if num == 2
     true
-  elsif (num % i > 0)
+  elsif (result != 0)
     false
   end
     true

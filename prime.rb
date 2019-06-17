@@ -12,5 +12,3 @@ def prime?(num)
     true
   end
 end
-  puts true
-end

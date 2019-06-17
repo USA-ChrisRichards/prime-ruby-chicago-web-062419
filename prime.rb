@@ -11,5 +11,6 @@ def prime?(num)
        false # if % returns 0, some number other than num and 1 were divisable, a.k.a not prime.
     end
   end
+  
   true
 end

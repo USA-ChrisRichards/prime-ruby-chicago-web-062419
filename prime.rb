@@ -8,7 +8,8 @@ def prime?(num)
       puts false
     elsif num % n == 0
       puts false # if % returns 0, some number other than num and 1 were divisable, a.k.a not prime.
-    else puts true
+    else 
+      puts true
     end
   end
 end

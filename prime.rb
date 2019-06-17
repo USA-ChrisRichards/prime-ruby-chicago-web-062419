@@ -2,9 +2,7 @@
 def prime?(num)
   print num
   
-  if num < 2
-  false
-  end
+ return false if value <= 1
   
   (2..num - 1).each do |n| # for each num in range between 2 and 1 before num, 
     if num % n == 0

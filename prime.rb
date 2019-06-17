@@ -4,5 +4,5 @@ def prime?(num)
    if num % n == 0
     false
   end
-  false
+  true
 end

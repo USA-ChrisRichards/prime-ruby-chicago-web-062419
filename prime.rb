@@ -9,5 +9,5 @@ def prime?(num)
       puts false
     else 
       puts true
-    end
+  end
 end

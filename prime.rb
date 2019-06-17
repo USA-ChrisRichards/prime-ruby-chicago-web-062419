@@ -2,7 +2,7 @@
 def prime?(num)
   print num
   
-  if num < 2 # neg nums, 1, and 0 are not prime
+  if num == -1 # neg nums, 1, and 0 are not prime
     false
   end
   

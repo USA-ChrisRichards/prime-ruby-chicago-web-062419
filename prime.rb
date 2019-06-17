@@ -2,7 +2,7 @@
 def prime?(num)
   print num
   if num < 2
-    puts false
+    false
   end
   
   (2..num - 1).each do |n| 

@@ -16,5 +16,5 @@ def prime?(num)
   elsif num < 2
     false
   end
-    puts true
+   true
 end

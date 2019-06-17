@@ -4,6 +4,7 @@ def prime?(num)
   
   if num < 2
   false
+  end
   
   (2..num - 1).each do |n| # for each num in range between 2 and 1 before num, 
     elsif num % n == 0
